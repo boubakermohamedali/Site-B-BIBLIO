@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ProfilAuteur.css">
+    <link rel="stylesheet" href="headerFooter.css">
+    <title>Profil Auteur</title>
+</head>
+<body>
+  <header>
+    <h1 style="background-image:url(Images/rentree.png)">
+      News de BBiblio
+  </h1>
+  </header>
+  <nav role="navigation">
+    <div id="menuToggle">
+      <input type="checkbox"/>      
+      <span></span>
+      <span></span>
+      <span></span>
+        
+      <ul id="menu">
+        <li>
+          <a href="acceuil.html">Acceuil</a>
+        </li>
+        <li class="dropdown">
+          <a href="" class="dropbtn">Association</a>
+          <div class="dropdown-content">
+            <a href="bbiblioHistoire.html">Histoire</a>
+            <a href="dons.html">Mécenat</a>      
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="" class="dropbtn">Concours</a>
+          <div class="dropdown-content">
+            <a href="Concours.html">Concours actuel</a>
+            <a href="concoursPrecedent.html">Concours prècedent</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="" class="dropbtn">Oeuvre</a>
+          <div class="dropdown-content">
+            <a href="Pageoeuvre.html">Catégorie/oeuvre</a>
+            <a href="ProfilAuteur.html">Auteur</a>
+            <a href="Pageoeuvrejury.html">Jury</a>
+          </div>
+        </li>
+        <li>
+          <a href="News.html">News</a>
+        </li>
+        <li class="dropdown">
+          <a href="" class="dropbtn">Règlement</a>
+          <div class="dropdown-content">
+            <a href="Reglement.html">Règlement Jury</a>
+            <a href="Reglement.html">Règlement Auteur</a>
+            <a href="Reglement.html">Règlement Concours</a>
+          </div>
+        </li>
+        
+      <li class="dropdown">
+          <a href="" class="dropbtn">Jury & Auteur</a>
+          <div class="dropdown-content">
+            <a href="jury.html">Jury</a>
+            <a href="auteur.html">Auteur</a>
+          </div>
+      </li>
+      
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+       
+        <li class="dropdown">
+          <a href="" class="dropbtn">Profil</a>
+          <div class="dropdown-content">
+            <a href="connexion.html">Connexion</a>
+            <a href="connexion.html">Deconnexion</a> 
+            <a href="inscrip2.html">Profil</a>      
+          </div>
+        </li>
+      </ul> 
+    </div>
+  </nav>
+ 
+    <ul class="menuToggle">
+        <li><a href="acceuil.html">Acceuil</a></li>
+        <li class="dropdown">
+        <a href="" class="dropbtn">Association</a>
+        <div class="dropdown-content">
+          <a href="bbiblioHistoire.html">Histoire</a>
+          <a href="dons.html">Mécenat</a>      
+        </div>
+        </li>
+        <li class="dropdown">
+        <a href="" class="dropbtn">Concours</a>
+        <div class="dropdown-content">
+          <a href="Concours.html">Concours actuel</a>
+          <a href="concoursPrecedent.html">Concours prècedent</a>
+        </div>
+        </li>
+        <li class="dropdown">
+        <a href="" class="dropbtn">Oeuvre</a>
+        <div class="dropdown-content">
+          <a href="Pageoeuvre.html">Catégorie/oeuvre</a>
+          <a href="ProfilAuteur.html">Auteur</a>
+          <a href="Pageoeuvrejury.html">Jury</a>  
+        </div>
+        </li>
+    
+        <li>
+          <a href="News.html">News</a>
+        </li>
+    
+        <li class="dropdown">
+        <a href="" class="dropbtn">Règlement</a>
+        <div class="dropdown-content">
+          <a href="Reglement.html">Règlement Jury</a>
+          <a href="Reglement.html">Règlement Auteur</a>
+          <a href="Reglement.html">Règlement Concours</a>
+        </div>
+        </li>
+        
+    <li class="dropdown">
+        <a href="" class="dropbtn">Jury & Auteur</a>
+        <div class="dropdown-content">
+          <a href="jury.html">Jury</a>
+          <a href="auteur.html">Auteur</a>
+        </div>
+        </li>
+    
+        <li><a href="contact.html">Contact</a></li>
+    
+        <li class="dropdown">
+        <a href="" class="dropbtn">Profil</a>
+        <div class="dropdown-content">
+          <a href="connexion.html">Connexion</a>
+          <a href="connexion.html">Deconnexion</a> 
+          <a href="inscrip2.html">Profil</a>                  
+        </div>
+        </li>
+  </ul>
+    
+
+      <div class="grid-container">
+        <div class="FormulaireAuteur">
+<div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="/img/ProfilAuteurImg.png" alt="Avatar" style="width:200px;height:200px;">
+        </div>
+        <br>
+
+        <form>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Madame</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Monsieur</label><br>
+            <label for="Nom" class="form-left">Nom : </label>
+            <input type="text" name="Nom" id="Nom">
+<br>
+            <label for="Prenom" class="form-left">Prénom : </label>
+            <input type="text" name="Prenom" id="Prenom">
+<br>
+            <label for="Email" class="form-left">Email :</label>
+            <input type="text" name="Email" id="Email">
+
+            <p><a href="https://www.instagram.com">Instagram</a></p>
+            <p><a href="https://fr-fr.facebook.com">Facebook</a></p>
+            <p><a href="tel:0493000000">0493000000</a></p>
+
+        </form>
+
+<div class="center">
+            <button>Ok</button>
+          </div>  
+        
+
+      </div>
+    </div>
+        </div>
+
+        <div class="Oeuvre">
+<h4>Oeuvre</h4>
+ <p>
+        <label for="photo" class="form-left">Envoyer une image :</label>
+        <input type="file" name="photo" id="photo">
+      </p>
+      
+        </div>
+        <div>
+        <label>&nbsp;</label>
+        <button type="submit">
+          Envoyer
+        </button>
+      </div>
+      </div>
+
+      
+
+      <div class="row">
+        <div class="col-lg-8">
+            <div class="embed-responsive embed-responsive-16by9 map-container mb-4 mb-lg-0">
+                
+                <ul class="social-list">
+                    <li><a class="fa fa-facebook" href="https://www.facebook.com" target="_blank" title="Facebook"><span>Facebook</span></a></li>
+                    <li><a class="fa fa-twitter" href="https://twitter.com" target="_blank" title="Twitter"><span>Twitter</span></a></li>
+                    <li><a class="fa fa-instagram" href="https://www.instagram.com" target="_blank" title="instagram"><span>instagram</span></a></li>
+                    <li> <a id="media-print" translate="no" href="javascript:window.print();"><span class="win-icon win-icon-Print" aria-hidden="true"></span><span class="ng-binding x-hidden-focus">Imprimer</span></a></li>
+                </ul>   
+            </div>
+        </div>
+  </div> 
+    <div class="footer">
+        Suivez BBiblio
+            <br>
+                <img src="" class="imgFooterTaille" alt=""/> Facebook
+                <img src=""  class="imgFooterTaille" alt=""/> Youtube   
+                <img src=""  class="imgFooterTaille " alt=""/> Twitter  
+                <img src=""  class="imgFooterTaille " alt=""/> Instagram
+                <img src=""  class="imgFooterTaille " alt=""/> SnapChat
+                <img src=""  class="imgFooterTaille " alt=""/> Fils RSS
+                <br>
+                <a href="" alt="" >
+                Mention légales
+                Charte du groupe
+                Politique de confidentialité
+                Gestion des cookies
+                Coonditions générales</a>
+        </div>
+</body>
+</html>

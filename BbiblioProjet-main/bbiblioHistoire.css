@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+    /* background-color: rgb(34, 19, 19); */
+}
+.centrage{
+    width: 900px;
+    margin: auto;
+    padding: 30px;
+    font-size: 1.2em;  
+    text-align: center;
+}
+@media all and (max-width: 900px) {
+    .centrage {
+        width: 400px;
+        margin: auto;
+        /* padding: 30px; */
+        font-size: 1.2em;  
+        text-align: center;
+
+    }
+  }
+
+  

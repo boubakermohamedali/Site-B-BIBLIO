@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche Oeuvre</title>
+    <link rel="stylesheet"  href="rechercheoeuvre.css"/>
+    <link rel="stylesheet" href="headerFooter.css">
+    <script src="monscript.js" type="test/javascript"></script>
+    <script>
+      function somme(){
+          var nbr1, nbr2, sum;
+          nbr1 = Number(document.getElementById("nbr1").value);
+          nbr2 = Number(document.getElementById("nbr2").value);
+          sum = nbr1 + nbr2;
+          document.getElementById("sum").value = sum;
+      }
+   </script>
+    
+</head>
+<body>
+        <div class="header">
+            <h1 style="background-image:url(Images/rentree.png)"> Oeuvre de BBiblio</h1>
+            <p>15 Novembre 2021 : Soirée inaugurale.</p>
+        </div>
+
+        <nav role="navigation">
+          <div id="menuToggle">
+            <input type="checkbox"/>      
+            <span></span>
+            <span></span>
+            <span></span>
+              
+            <ul id="menu">
+              <li>
+                <a href="acceuil.html">Acceuil</a>
+              </li>
+              <li class="dropdown">
+                <a href="" class="dropbtn">Association</a>
+                <div class="dropdown-content">
+                  <a href="bbiblioHistoire.html">Histoire</a>
+                  <a href="dons.html">Mécenat</a>      
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="" class="dropbtn">Concours</a>
+                <div class="dropdown-content">
+                  <a href="Concours.html">Concours actuel</a>
+                  <a href="concoursPrecedent.html">Concours prècedent</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="" class="dropbtn">Oeuvre</a>
+                <div class="dropdown-content">
+                  <a href="Pageoeuvre.html">Catégorie/oeuvre</a>
+                  <a href="ProfilAuteur.html">Auteur</a>
+                  <a href="Pageoeuvrejury.html">Jury</a>
+                </div>
+              </li>
+              <li>
+                <a href="News.html">News</a>
+              </li>
+              <li class="dropdown">
+                <a href="" class="dropbtn">Règlement</a>
+                <div class="dropdown-content">
+                  <a href="Reglement.html">Règlement Jury</a>
+                  <a href="Reglement.html">Règlement Auteur</a>
+                  <a href="Reglement.html">Règlement Concours</a>
+                </div>
+              </li>
+              
+            <li class="dropdown">
+                <a href="" class="dropbtn">Jury & Auteur</a>
+                <div class="dropdown-content">
+                  <a href="jury.html">Jury</a>
+                  <a href="auteur.html">Auteur</a>
+                </div>
+            </li>
+            
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+             
+              <li class="dropdown">
+                <a href="" class="dropbtn">Profil</a>
+                <div class="dropdown-content">
+                  <a href="connexion.html">Connexion</a>
+                  <a href="connexion.html">Deconnexion</a> 
+                  <a href="inscrip2.html">Profil</a>      
+                </div>
+              </li>
+            </ul> 
+          </div>
+        </nav>
+       
+          <ul class="menuToggle">
+              <li><a href="acceuil.html">Acceuil</a></li>
+              <li class="dropdown">
+              <a href="" class="dropbtn">Association</a>
+              <div class="dropdown-content">
+                <a href="bbiblioHistoire.html">Histoire</a>
+                <a href="dons.html">Mécenat</a>      
+              </div>
+              </li>
+              <li class="dropdown">
+              <a href="" class="dropbtn">Concours</a>
+              <div class="dropdown-content">
+                <a href="Concours.html">Concours actuel</a>
+                <a href="concoursPrecedent.html">Concours prècedent</a>
+              </div>
+              </li>
+              <li class="dropdown">
+              <a href="" class="dropbtn">Oeuvre</a>
+              <div class="dropdown-content">
+                <a href="Pageoeuvre.html">Catégorie/oeuvre</a>
+                <a href="ProfilAuteur.html">Auteur</a>
+                <a href="Pageoeuvrejury.html">Jury</a>  
+              </div>
+              </li>
+          
+              <li>
+                <a href="News.html">News</a>
+              </li>
+          
+              <li class="dropdown">
+              <a href="" class="dropbtn">Règlement</a>
+              <div class="dropdown-content">
+                <a href="Reglement.html">Règlement Jury</a>
+                <a href="Reglement.html">Règlement Auteur</a>
+                <a href="Reglement.html">Règlement Concours</a>
+              </div>
+              </li>
+              
+          <li class="dropdown">
+              <a href="" class="dropbtn">Jury & Auteur</a>
+              <div class="dropdown-content">
+                <a href="jury.html">Jury</a>
+                <a href="auteur.html">Auteur</a>
+              </div>
+              </li>
+          
+              <li><a href="contact.html">Contact</a></li>
+          
+              <li class="dropdown">
+              <a href="" class="dropbtn">Profil</a>
+              <div class="dropdown-content">
+                <a href="connexion.html">Connexion</a>
+                <a href="connexion.html">Deconnexion</a> 
+                <a href="inscrip2.html">Profil</a>                  
+              </div>
+              </li>
+        </ul>
+       
+        
+             <!-- The flexible grid (content) -->
+            <div class="row">
+                <div class="side">
+                    <h3>Recherche</h3>
+                    
+                    <form>
+                    <input type="text" name="search" placeholder="Recherche..">
+                    </form>
+                    
+                    <h3>Filtres </h3>
+                    
+                    
+                    
+                    <h3>Type</h3>
+                        
+                        <form>
+                            <select id="type"name="type">
+                            <option value="Type A">Type A</option>
+                            <option value="Type B">Type B</option>
+                            <option value="Type C">Type C</option>
+                            </select>
+                        </form>
+                    
+                    <h3>Auteur</h3>
+                        
+                        <form>
+                            <select id="Auteur" >
+                            <option value="Auteur1">Auteur1</option>
+                            <option value="Auteur2">Auteur2</option>
+                            <option value="Auteur3">Auteur3</option>
+                            </select>
+                        </form>
+
+                    <h3>Editeur</h3>
+                    
+                        <form>
+                            <select id="Editeur" >
+                            <option value="Editeur1">Editeur1</option>
+                            <option value="Editeur2">Editeur2</option>
+                            <option value="Editeur3">Editeur3</option>
+                            </select>
+                        </form>
+                    
+                    <h3>Date</h3>
+                    
+                        <form>
+                            <select id="Date" >
+                            <option value="Date1">Date1</option>
+                            <option value="Date2">Date2</option>
+                            <option value="Date3">Date3</option>
+                            </select>
+                        </form>
+                    
+                    
+                    
+                </div>
+                
+                <div class="main">
+                    <div class="slider">
+                        <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+                        <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+                        <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+                        <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+                        <div class="slider__inner">
+                          <div class="slider__contents">
+                              <!-- <i class="slider__image fa fa-codepen"></i> -->
+                            <h2 class="slider__caption"> <a href="#">A</a></h2>
+                            <form>
+                                <select id="oeuvre">
+                                <option value="oeuvre1"> <a href="#">oeuvre1</a></option>
+                                <option value="oeuvre2">oeuvre2</option>
+                                <option value="oeuvre3">oeuvre3</option>
+                                </select>
+                              </form>
+                              
+                          </div>
+                          <div class="slider__contents">
+                              <!-- <i class="slider__image fa fa-newspaper-o"></i> -->
+                            <h2 class="slider__caption"><a href="#"> B</a></h2>
+                            <form>
+                                <select id="oeuvrep2">
+                                <option value="oeuvre1">oeuvre1</option>
+                                <option value="oeuvre2">oeuvre2</option>
+                                <option value="oeuvre3">oeuvre3</option>
+                                </select>
+                              </form>
+                          </div>
+                          <div class="slider__contents">
+                              <!-- <i class="slider__image fa fa-television"></i> -->
+                            <h2 class="slider__caption"><a href="#"> C</a></h2>
+                            <form>
+                                <select id="oeuvrep3">
+                                <option value="oeuvre1">oeuvre1</option>
+                                <option value="oeuvre2">oeuvre2</option>
+                                <option value="oeuvre3">oeuvre3</option>
+                                </select>
+                              </form>
+                          </div>
+                           <div class="slider__contents"> 
+                               <!-- <i class="slider__image fa fa-diamond"></i>  -->
+                                <h2 class="slider__caption"><a href="#"> D</a></h2>
+                                    <div class="l">
+                                        <li>oeuvre</li>
+                                        <li>oeuvre</li>
+                                        <li>oeuvre</li>
+                                        <li>oeuvre</li>
+                                        <li>oeuvre</li>
+                                        <li>oeuvre</li>
+                                        <li>oeuvre</li>
+                                        <li>oeuvre</li>
+                                        <li>oeuvre</li>
+                                        <li>oeuvre</li>
+                                        <li>oeuvre</li>
+                                        <li>oeuvre</li>
+                                        <li>oeuvre</li>
+                                        <li>oeuvre</li>
+                                   </div>
+                          </div>
+                        </div>
+                      </div>
+                      <input id="nbr1"> + <input id="nbr2"> + <input id="nbr3"> + <input id="nbr4">
+                      <br/><br/><br/>
+                      <button onclick="somme()">Calculer la somme</button>
+                       = <input id="sum">
+    
+                   </table>
+                      <form>
+                        <h3>Les différentes Catégories</h3> 
+                        <select id="type"name="type">
+                        <option value="Type A">Meilleur roman français</option>
+                        <option value="Type B">Meilleur roman étranger</option>
+                        <option value="Type C">Meilleur documentaire</option>
+                        <option value="Type C">Meilleure biolographe</option>
+                        </select>
+                      </form>
+
+                      <p>Nous remercions chaleureusement les 29 contributeurs qui ont soutenu la 5e édition du Festival littéraire itinérant et nous ont permis de récolter 1800€.</p>
+                      <select name="les critéres de notation :" multiple>
+                        <optgroup label="les critéres de notation ">
+                          <option value="meilleure style">Meilleure style</option>
+                          <option value="meilleures illustartions" selected>Meilleures illustartions</option>
+                          <option value="meilleures mise en page">Meilleures mise en page</option>
+                          <option value="meilleures émotion">Meilleures émotion</un>
+                        </optgroup>
+                      </select> 
+                
+            </div> 
+             <br>
+         </br>
+         <script>
+          function monseuil()
+            {
+              var stylea = 0;
+              var illusta = 0;
+              var misepagea = 0;
+              var emotiona = 0;
+          
+              var stylea = document.getElementById("diststyle").value;
+              var illusta = document.getElementById("distillust").value;
+              var misepagea = document.getElementById("distpage").value;
+              var emotiona = document.getElementById("distemo").value;
+              document.getElementById("noteglobal").innerHTML = (stylea++ + illusta++ + misepagea++ + emotiona++) / 4 ;
+            }
+          </script>
+               
+            
+            
+            </div>
+                        <br><br><br><br><br><br><br><br><br>
+                        <br/> <br/> <br/>
+          <div class="row">
+            <div class="col-lg-8">
+                <div class="embed-responsive embed-responsive-16by9 map-container mb-4 mb-lg-0">
+                    
+                    <ul class="social-list">
+                        <li><a class="fa fa-facebook" href="https://www.facebook.com" target="_blank" title="Facebook"><span>Facebook</span></a></li>
+                        <li><a class="fa fa-twitter" href="https://twitter.com" target="_blank" title="Twitter"><span>Twitter</span></a></li>
+                        <li><a class="fa fa-instagram" href="https://www.instagram.com" target="_blank" title="instagram"><span>instagram</span></a></li>
+                        <li> <a id="media-print" translate="no" href="javascript:window.print();"><span class="win-icon win-icon-Print" aria-hidden="true"></span><span class="ng-binding x-hidden-focus">Imprimer</span></a></li>
+                    </ul>   
+                </div>
+            </div>
+      </div> 
+            <div class="footer">
+                Suivez BBiblio
+              <br>
+                  <img src="" class="imgFooterTaille" alt=""/> Facebook
+                  <img src=""  class="imgFooterTaille" alt=""/> Youtube   
+                  <img src=""  class="imgFooterTaille " alt=""/> Twitter  
+                  <img src=""  class="imgFooterTaille " alt=""/> Instagram
+                  <img src=""  class="imgFooterTaille " alt=""/> SnapChat
+                  <img src=""  class="imgFooterTaille " alt=""/> Fils RSS
+                  <br>
+                  <a href="" alt="" >
+                 <p> Mention légales</p>
+                  Charte du groupe
+                  Politique de confidentialité
+                  Gestion des cookies
+                  Coonditions générales</a>
+          </div>
+        </body>
+</html>

@@ -1,0 +1,538 @@
+<!-- <!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+        <title>BBiblio</title>   
+    </head>
+    <body>
+            
+        <div>
+            BBiblio
+        </div>
+        
+
+        <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox"/>      
+              <span></span>
+              <span></span>
+              <span></span>
+                
+              <ul id="menu">
+                <li>
+                  <a href="acceuil.html">Acceuil</a>
+                </li>
+                <li class="dropdown">
+                  <a href="" class="dropbtn">Association</a>
+                  <div class="dropdown-content">
+                    <a href="bbiblioHistoire.html">Histoire</a>
+                    <a href="dons.html">Mécenat</a>      
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="" class="dropbtn">Concours</a>
+                  <div class="dropdown-content">
+                    <a href="Concours.html">Concours actuel</a>
+                    <a href="concoursPrecedent.html">Concours prècedent</a>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="" class="dropbtn">Oeuvre</a>
+                  <div class="dropdown-content">
+                    <a href="Pageoeuvre.html">Catégorie/oeuvre</a>
+                    <a href="ProfilAuteur.html">Auteur</a>
+                    <a href="Pageoeuvrejury.html">Jury</a>
+                  </div>
+                </li>
+                <li>
+                  <a href="News.html">News</a>
+                </li>
+                <li class="dropdown">
+                  <a href="" class="dropbtn">Règlement</a>
+                  <div class="dropdown-content">
+                    <a href="Reglement.html">Règlement Jury</a>
+                    <a href="Reglement.html">Règlement Auteur</a>
+                    <a href="Reglement.html">Règlement Concours</a>
+                  </div>
+                </li>
+                
+              <li class="dropdown">
+                  <a href="" class="dropbtn">Jury & Auteur</a>
+                  <div class="dropdown-content">
+                    <a href="jury.html">Jury</a>
+                    <a href="auteur.html">Auteur</a>
+                  </div>
+              </li>
+              
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+               
+                <li class="dropdown">
+                  <a href="" class="dropbtn">Profil</a>
+                  <div class="dropdown-content">
+                    <a href="connexion.html">Connexion</a>
+                    <a href="connexion.html">Deconnexion</a> 
+                    <a href="inscrip2.html">Profil</a>      
+                  </div>
+                </li>
+              </ul> 
+            </div>
+          </nav>
+         
+            <ul class="menuToggle">
+                <li><a href="acceuil.html">Acceuil</a></li>
+                <li class="dropdown">
+                <a href="" class="dropbtn">Association</a>
+                <div class="dropdown-content">
+                  <a href="bbiblioHistoire.html">Histoire</a>
+                  <a href="dons.html">Mécenat</a>      
+                </div>
+                </li>
+                <li class="dropdown">
+                <a href="" class="dropbtn">Concours</a>
+                <div class="dropdown-content">
+                  <a href="Concours.html">Concours actuel</a>
+                  <a href="concoursPrecedent.html">Concours prècedent</a>
+                </div>
+                </li>
+                <li class="dropdown">
+                <a href="" class="dropbtn">Oeuvre</a>
+                <div class="dropdown-content">
+                  <a href="Pageoeuvre.html">Catégorie/oeuvre</a>
+                  <a href="ProfilAuteur.html">Auteur</a>
+                  <a href="Pageoeuvrejury.html">Jury</a>  
+                </div>
+                </li>
+            
+                <li>
+                  <a href="News.html">News</a>
+                </li>
+            
+                <li class="dropdown">
+                <a href="" class="dropbtn">Règlement</a>
+                <div class="dropdown-content">
+                  <a href="Reglement.html">Règlement Jury</a>
+                  <a href="Reglement.html">Règlement Auteur</a>
+                  <a href="Reglement.html">Règlement Concours</a>
+                </div>
+                </li>
+                
+            <li class="dropdown">
+                <a href="" class="dropbtn">Jury & Auteur</a>
+                <div class="dropdown-content">
+                  <a href="jury.html">Jury</a>
+                  <a href="auteur.html">Auteur</a>
+                </div>
+                </li>
+            
+                <li><a href="contact.html">Contact</a></li>
+            
+                <li class="dropdown">
+                <a href="" class="dropbtn">Profil</a>
+                <div class="dropdown-content">
+                  <a href="connexion.html">Connexion</a>
+                  <a href="connexion.html">Deconnexion</a> 
+                  <a href="inscrip2.html">Profil</a>                  
+                </div>
+                </li>
+          </ul>
+            
+
+      <section class="contact">
+        <div class="contenu">
+          <div class="Jury">
+            <select size="1" style="margin: 0px; width: 200px; height: 20px;">
+             <option value="Jury">jury</option>
+            </sect><br/>
+            <textarea style="margin: 0px; width: 200px; height: 100px;">Nom et Prènon</textarea>
+           </textarea><br/> <button>Search</button><br/><br/>
+           <input type="text" id="name" name="name" required="" minlength="4" maxlength="10" size="26" margin:="10px"; width:="200px"; height="20px";>
+          </div>
+          <textarea style="margin: 0px; width: 200px; height: 100px;">Catégories</textarea>
+          </textarea><br/>
+          <div class="contenu">
+            <form>
+            <button>Rechercher</button></form><br/><br/>
+          </div>
+        </div>
+      </section>
+      <form action="/login_pro.php?a=l" method="post" id="formulairelogin">
+
+        <p>
+          <label for="log0">Connexion&nbsp;:</label><br />
+          <input type="text" name="site" maxlength="50" class="text" id="log0" />
+        </p>
+        <p>
+          <label for="log1">Non d'utilisateur &nbsp;:</label><br />
+          <input type="text" name="login" maxlength="50" class="text" id="log1" />
+        </p>
+        <p>
+          <label for="log2">Mot de passe&nbsp;:</label><br />
+          <input type="password" name="mdp" maxlength="50" class="text" id="log2" />
+        </p>									
+
+        <p>
+          <input type="submit" value="Connexion" style="font-weight:bold;" />
+        </p>
+        <p align="center">
+          <a href="/oubli_mdp.php">Mot de passe oublié ?</a>
+        </p>
+      </form>
+      <p>
+        
+        <input type="submit" value="Se connecter" style="font-weight:bold;">
+      </p>
+      <h1>Informations</h1>
+
+  <form method="post" action="traitement.php">
+
+   <input type="text" placeholder="Login" name="login">
+
+   <input type="passowrd" placeholder="Mot de passe" name="mdp">
+
+   <br>
+
+   <textarea name="texte">
+
+   </textarea>
+
+   <br>
+
+   <input type="submit" value="envoyer">
+
+   <input type="reset">
+
+  </form>
+  <div class="bimage">
+    <div class="text">
+      <h1>Connexion</h1>
+      <form action="/action_page.php" method="post">
+        
+      
+        <div class="container">
+          <label for="uname"><b>Adresse mail</b></label><br>
+          <input type="text" placeholder="" name="uname" required>
+            <br>
+          <label for="psw"><b>Mot de passe</b></label><br>
+          <input type="password" placeholder="" name="psw" required> <br>
+              
+          <button type="submit">Connexion</button>
+          <label><br>
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+                       checked>
+                <label for="scales">Se rappeler de moi </label>
+              
+          </label> <br>
+            
+          <span class="psw"><a href="#">Mot de passe oublier?</a></span> <br>
+          <span class="psw"><a href="/html/inscrip2.html">Crée un compte</a></span>
+        
+        </div>
+        </div>
+      </form>
+    </div>
+  </div>   
+        <div class="footer">
+            Suivez BBiblio
+                <br>
+                    <img src="" class="imgFooterTaille" alt=""/> Facebook
+                    <img src=""  class="imgFooterTaille" alt=""/> Youtube   
+                    <img src=""  class="imgFooterTaille " alt=""/> Twitter  
+                    <img src=""  class="imgFooterTaille " alt=""/> Instagram
+                    <img src=""  class="imgFooterTaille " alt=""/> SnapChat
+                    <img src=""  class="imgFooterTaille " alt=""/> Fils RSS
+                    <br>
+                    <a href="" alt="" >
+                    Mention légales
+                    Charte du groupe
+                    Politique de confidentialité
+                    Gestion des cookies
+                    Coonditions générales</a>
+        </div>
+    </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="jury.css"/>
+        <title>BBiblio</title>   
+    </head>
+    <body>
+            
+        <div>
+            BBiblio
+        </div>
+        
+
+        <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox"/>      
+              <span></span>
+              <span></span>
+              <span></span>
+                
+              <ul id="menu">
+                <li>
+                  <a href="acceuil.html">Acceuil</a>
+                </li>
+                <li class="dropdown">
+                  <a href="" class="dropbtn">Association</a>
+                  <div class="dropdown-content">
+                    <a href="bbiblioHistoire.html">Histoire</a>
+                    <a href="dons.html">Mécenat</a>      
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="" class="dropbtn">Concours</a>
+                  <div class="dropdown-content">
+                    <a href="Concours.html">Concours actuel</a>
+                    <a href="concoursPrecedent.html">Concours prècedent</a>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="" class="dropbtn">Oeuvre</a>
+                  <div class="dropdown-content">
+                    <a href="Pageoeuvre.html">Catégorie/oeuvre</a>
+                    <a href="ProfilAuteur.html">Auteur</a>
+                    <a href="Pageoeuvrejury.html">Jury</a>
+                  </div>
+                </li>
+                <li>
+                  <a href="News.html">News</a>
+                </li>
+                <li class="dropdown">
+                  <a href="" class="dropbtn">Règlement</a>
+                  <div class="dropdown-content">
+                    <a href="Reglement.html">Règlement Jury</a>
+                    <a href="Reglement.html">Règlement Auteur</a>
+                    <a href="Reglement.html">Règlement Concours</a>
+                  </div>
+                </li>
+                
+              <li class="dropdown">
+                  <a href="" class="dropbtn">Jury & Auteur</a>
+                  <div class="dropdown-content">
+                    <a href="jury.html">Jury</a>
+                    <a href="auteur.html">Auteur</a>
+                  </div>
+              </li>
+              
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+               
+                <li class="dropdown">
+                  <a href="" class="dropbtn">Profil</a>
+                  <div class="dropdown-content">
+                    <a href="connexion.html">Connexion</a>
+                    <a href="connexion.html">Deconnexion</a> 
+                    <a href="inscrip2.html">Profil</a>      
+                  </div>
+                </li>
+              </ul> 
+            </div>
+          </nav>
+         
+            <ul class="menuToggle">
+                <li><a href="acceuil.html">Acceuil</a></li>
+                <li class="dropdown">
+                <a href="" class="dropbtn">Association</a>
+                <div class="dropdown-content">
+                  <a href="bbiblioHistoire.html">Histoire</a>
+                  <a href="dons.html">Mécenat</a>      
+                </div>
+                </li>
+                <li class="dropdown">
+                <a href="" class="dropbtn">Concours</a>
+                <div class="dropdown-content">
+                  <a href="Concours.html">Concours actuel</a>
+                  <a href="concoursPrecedent.html">Concours prècedent</a>
+                </div>
+                </li>
+                <li class="dropdown">
+                <a href="" class="dropbtn">Oeuvre</a>
+                <div class="dropdown-content">
+                  <a href="Pageoeuvre.html">Catégorie/oeuvre</a>
+                  <a href="ProfilAuteur.html">Auteur</a>
+                  <a href="Pageoeuvrejury.html">Jury</a>  
+                </div>
+                </li>
+            
+                <li>
+                  <a href="News.html">News</a>
+                </li>
+            
+                <li class="dropdown">
+                <a href="" class="dropbtn">Règlement</a>
+                <div class="dropdown-content">
+                  <a href="Reglement.html">Règlement Jury</a>
+                  <a href="Reglement.html">Règlement Auteur</a>
+                  <a href="Reglement.html">Règlement Concours</a>
+                </div>
+                </li>
+                
+            <li class="dropdown">
+                <a href="" class="dropbtn">Jury & Auteur</a>
+                <div class="dropdown-content">
+                  <a href="jury.html">Jury</a>
+                  <a href="auteur.html">Auteur</a>
+                </div>
+                </li>
+            
+                <li><a href="contact.html">Contact</a></li>
+            
+                <li class="dropdown">
+                <a href="" class="dropbtn">Profil</a>
+                <div class="dropdown-content">
+                  <a href="connexion.html">Connexion</a>
+                  <a href="connexion.html">Deconnexion</a> 
+                  <a href="inscrip2.html">Profil</a>                  
+                </div>
+                </li>
+          </ul>
+    <div class="bimage">
+        <div class="text">
+          <h1>Connexion</h1>
+          <form action="/action_page.php" method="post">
+            
+          
+            <div class="container">
+              <label for="uname"><b>Nom d'utilisateur</b></label><br>
+              <input type="text" placeholder="" name="uname" required>
+                <br>
+              <label for="psw"><b>Mot de passe</b></label><br>
+              <input type="password" placeholder="" name="psw" required> <br>
+                  
+              <button type="submit">Connexion</button>
+              <label><br>
+                <div>
+                    <input type="checkbox" id="scales" name="scales"
+                           checked>
+                    <label for="scales">Se rappeler de moi </label>
+                  
+              </label> <br>
+                
+              <span class="psw"><a href="#">Mot de passe oublier?</a></span> <br>
+              <span class="psw"><a href="/html/inscrip2.html">Crée un compte</a></span>
+            
+            </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="container"></div>
+      <table bgcolor="#ffffe0" style="border: 4px solid black" cellspacing="0" cellpadding="3" frame="border" border="1">
+        <tbody><tr>
+        <th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Candidat</font></font></th>
+        <th colspan="100"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Votre vote</font></font></th>
+        </tr>
+        
+        <tr>
+        <td><nobr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EISENHOWER, Dwight D.</font></font></nobr></td>
+        
+        <td colspan="60" bgcolor="#0000ff"></td>
+        <td colspan="39" bgcolor="#ffffbb"></td>
+        <td align="center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">60</font></font></td>
+        </tr>
+        
+        <tr>
+        <td><nobr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HARDING, Warren G.</font></font></nobr></td>
+        <td colspan="5" bgcolor="#0000ff"></td>
+        <td colspan="94" bgcolor="#ffffbb"></td>
+        <td align="center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5</font></font></td>
+        </tr>
+        
+        <tr>
+        <td><nobr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RASPUTIN, Grigori</font></font></nobr></td>
+        
+        <!-- doesn't like colspan=0 -->
+        <td colspan="99" bgcolor="#ffffbb"></td>
+        <td align="center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">0</font></font></td>
+        </tr>
+        
+        <tr>
+        <td><nobr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HOOVER, Herbert</font></font></nobr></td>
+        <td colspan="25" bgcolor="#0000ff"></td>
+        <td colspan="74" bgcolor="#ffffbb"></td>
+        <td align="center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">25</font></font></td>
+        </tr>
+        
+        <tr>
+        <td><nobr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LINCOLN, Abraham</font></font></nobr></td>
+        
+        <td colspan="99" bgcolor="#0000ff"></td>
+        <!-- doesn't like colspan=0 -->
+        <td align="center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">99</font></font></td>
+        </tr>
+        
+        <tr>
+        <td><nobr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PEROT, H. Ross</font></font></nobr></td>
+        <td colspan="9" bgcolor="#dc143c"></td>
+        <td colspan="9" bgcolor="#ffffff"></td>
+        <td colspan="9" bgcolor="#dc143c"></td>
+        <td colspan="9" bgcolor="#ffffff"></td>
+        <td colspan="9" bgcolor="#dc143c"></td>
+        <td colspan="9" bgcolor="#ffffff"></td>
+        <td colspan="9" bgcolor="#dc143c"></td>
+        <td colspan="9" bgcolor="#ffffff"></td>
+        
+        <td colspan="9" bgcolor="#dc143c"></td>
+        <td colspan="9" bgcolor="#ffffff"></td>
+        <td colspan="9" bgcolor="#dc143c"></td>
+        <td align="center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">X</font></font></td>
+        </tr>
+        
+        <tr>
+        <td><nobr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ROOSEVELT, Franklin D.</font></font></nobr></td>
+        <td colspan="50" bgcolor="#0000ff"></td>
+        <td colspan="49" bgcolor="#ffffbb"></td>
+        <td align="center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">50</font></font></td>
+        </tr>
+        
+        <tr>
+        
+        <td><nobr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WASHINGTON, George</font></font></nobr></td>
+        <td colspan="75" bgcolor="#0000ff"></td>
+        <td colspan="24" bgcolor="#ffffbb"></td>
+        <td align="center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">75</font></font></td>
+        </tr>
+        </tbody></table>
+        <br/><br/><br/>
+          <div class="row">
+            <div class="col-lg-8">
+                <div class="embed-responsive embed-responsive-16by9 map-container mb-4 mb-lg-0">
+                    
+                    <ul class="social-list">
+                        <li><a class="fa fa-facebook" href="https://www.facebook.com" target="_blank" title="Facebook"><span>Facebook</span></a></li>
+                        <li><a class="fa fa-twitter" href="https://twitter.com" target="_blank" title="Twitter"><span>Twitter</span></a></li>
+                        <li><a class="fa fa-instagram" href="https://www.instagram.com" target="_blank" title="instagram"><span>instagram</span></a></li>
+                        <li> <a id="media-print" translate="no" href="javascript:window.print();"><span class="win-icon win-icon-Print" aria-hidden="true"></span><span class="ng-binding x-hidden-focus">Imprimer</span></a></li>
+                    </ul>   
+                </div>
+            </div>
+      </div>
+      <div class="footer">
+        Suivez BBiblio
+            <br>
+                <img src="" class="imgFooterTaille" alt=""/> Facebook
+                <img src=""  class="imgFooterTaille" alt=""/> Youtube   
+                <img src=""  class="imgFooterTaille " alt=""/> Twitter  
+                <img src=""  class="imgFooterTaille " alt=""/> Instagram
+                <img src=""  class="imgFooterTaille " alt=""/> SnapChat
+                <img src=""  class="imgFooterTaille " alt=""/> Fils RSS
+                <br>
+                <a href="" alt="" >
+                Mention légales
+                Charte du groupe
+                Politique de confidentialité
+                Gestion des cookies
+                Coonditions générales</a>
+    </div>
+</body>
+</html>

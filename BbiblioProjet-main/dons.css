@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 15px;
+}
+.header2 {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+#titre{
+    text-align: center;
+    font-size: 30px;
+}
+.info{
+    font-size: 20px;
+    text-align: center;
+}
+
+/* bouton */
+
+.bouton {
+    display: absolute;
+    border-radius: 4px;
+    background-color: #fcbc47;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+    
+  }
+  
+  .bouton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .bouton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .bouton:hover span {
+    padding-right: 25px;
+  }
+  
+  .bouton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  h1 {
+    text-align: center;
+    background-size: 50% 100%;
+    font-size: 32px;
+    line-height: 150px;
+
+}
+
+  
