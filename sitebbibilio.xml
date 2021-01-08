@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<bibliotheque>
+
+
+-<livres id="01">
+
+
+-<livre>
+
+<titre> Le bio </titre>
+
+
+-<auteurs>
+
+<auteur> Jean-Félix </auteur>
+
+</auteurs>
+
+<editeur>Lalanne se confie  </editeur>
+
+<description> Sa famille, son nouveau livre, ses projets. </description>
+
+</livre>
+
+<pages> 1000 </pages>
+
+<couverture src="../img/livres1.png"/>
+
+<prix> 10.90 € </prix>
+
+<edition> 1ère édition </edition>
+
+<parution> 15/10/2020 </parution>
+
+<commentaire> La nouvelle traduction est vraiment bien, changer la communauté de l’anneau en fraternité de l'anneau est excellent car c'est la vraie traduction du titre original de Tolkien... Je suis moins fan par contre du changement du nom de famille Saquet par Bessac... Même si Bessac ressemble phonétiquement à Baggin, je ne vois pas ici l’intérêt ici d'avoir changé ce nom. Mais c'est un petit détail, Daniel Lauzon a fait un travail remarquable. </commentaire>
+
+<note> 10.6/11 </note>
+
+</livres>
+
+
+-<livres id="02">
+
+
+-<livre>
+
+<titre> une ode lumineuse à la vie </titre>
+
+
+-<auteurs>
+
+<auteur> Bernard Deloupy </auteur>
+
+</auteurs>
+
+<editeur> Une pente </editeur>
+
+<description> Une étincelle bienvenue en cette période sombre. » </description>
+
+</livre>
+
+<pages> 600 </pages>
+
+<couverture src="../img/livres2.png"/>
+
+<prix> 12.50 € </prix>
+
+<edition> 1ère édition </edition>
+
+<parution> 18/02/2021 </parution>
+
+<commentaire> respire le bonheur. </commentaire>
+
+<note> 18/20 </note>
+
+</livres>
+</bibliotheque>
